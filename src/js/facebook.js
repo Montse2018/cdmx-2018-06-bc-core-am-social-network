@@ -13,8 +13,8 @@ const validacion = (provider) => {
     let user = result.user;
     /* event.preventDefault(); */
     console.log(user, 'nombre de usuario');
-    /* href = '../views/wall.html' */
-    location.href('../views/wall.html');
+    location.href = '../views/wall.html';
+    //location.href('../views/wall.html');
     //location.assign('views/wall.html');
     console.log('estoy en el muro');
     event.preventDefault();
